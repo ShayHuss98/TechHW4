@@ -45,3 +45,16 @@ footer {
     text-align: center;
     font-size: 11px;
 }
+
+#OrderListHeader{
+    padding: 10px;
+    text-align: center;
+}
+
+#OrderListTable {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+    list-style-type: none;
+}
