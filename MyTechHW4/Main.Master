@@ -19,7 +19,7 @@
             <span>Shayan Hussain</span>
             <h1>Pet Medication System</h1>
             <ul>
-                <li><a href="PlaceOrder.aspx">Place Order</a></li>
+                <li><a href="PlaceOrders.aspx">Place Order</a></li>
                 <li> <a href="OrderList.aspx">Order List</a></li>
                 <li><a href="UpdateOrder.aspx">Update Order</a></li>
             </ul>

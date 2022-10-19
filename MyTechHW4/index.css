@@ -46,7 +46,7 @@ footer {
     font-size: 11px;
 }
 
-#OrderListHeader{
+h2{
     padding: 10px;
     text-align: center;
 }
@@ -57,4 +57,21 @@ footer {
     gap: 100px;
     align-items: center;
     list-style-type: none;
+}
+
+form{
+    padding: 24px;
+    margin: 0 auto;
+}
+
+.content-wrapper{
+    margin: 0 auto;
+}
+
+.btn-wrapper{
+    display: flex;
+    gap: 12px;
+    padding: 12px;
+    margin: 0 auto;
+    justify-content: center;
 }
