@@ -67,10 +67,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="index.css" />
+    <Content Include="OrderList.aspx" />
     <Content Include="PlaceOrders.aspx" />
+    <Content Include="UpdateOrder.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="OrderList.aspx.cs">
+      <DependentUpon>OrderList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OrderList.aspx.designer.cs">
+      <DependentUpon>OrderList.aspx</DependentUpon>
+    </Compile>
     <Compile Include="PlaceOrders.aspx.cs">
       <DependentUpon>PlaceOrders.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -85,6 +95,13 @@
     </Compile>
     <Compile Include="Main.Master.designer.cs">
       <DependentUpon>Main.Master</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateOrder.aspx.cs">
+      <DependentUpon>UpdateOrder.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UpdateOrder.aspx.designer.cs">
+      <DependentUpon>UpdateOrder.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
